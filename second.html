@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- daisy ui linking -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#F4F7FF] min-h-screen">
+   <!-- header section -->
+   <section class="pt-8">
+    <!-- container -->
+     <div class="container mx-auto ">
+        <!-- main div -->
+         <div class="flex justify-between bg-white py-5 px-4 rounded-lg">
+            <div class="flex justify-center items-center">
+                <img src="assets/logo.png" alt="">
+                
+                <div class="pl-5">
+                    <h1 class="text-xl">Dev <span class="text-[#00303C] font-extrabold text-xl">Board</span></h1>
+                </div>
+            </div>
+            <!-- right div -->
+            <div>
+                
+                <div>
+                    <button id="back-btn" class="btn px-10 py-5 bg-blue-600 text-white border-none font-medium text-base">Back to Desk</button>
+                </div>
+            </div>
+         </div>
+
+     </div>
+
+</section>
+<!-- blog section -->
+ <section class="text-center py-4">
+    <h2 class="text-3xl">Blog</h2>
+ </section>
+
+<!-- main section -->
+ <section>
+    <div class="container mx-auto p-6 bg-white mb-4">
+        <h1 class="border-b border-dashed text-3xl">What are the different ways to select an element in the DOM?</h1>
+        <p>
+            DOM এ একটি Element নির্বাচন করার জন্য- By ID, By Class Name, By Tag Name, By Query Selector, By QuerySelectorAll এগুলো ব্যবহার করা হয়।
+        </p>
+
+    </div>
+    <div class="container mx-auto p-6 bg-white mb-4">
+        <h1 class="border-b border-dashed text-3xl pb-2"> What is the difference between innerHTML, innerText, and textContent ?</h1>
+        <p>
+            innerHTML দিয়ে সাধারনত একটি Element এর ভিতরে HTML সেট করে এবং কোনো HTML কে পেতে গেলে innerHTML লাগে। অন্যদিকে innerText Element এর ভিতরের মানকে রিটার্ন করে অথবা সেটও করে। যখন কোনো মানের প্রয়োজন তখন innerText ব্যবহার করা হয়। textContent এইটা সম্পর্কে ভালো জানি না।
+        </p>
+
+    </div>
+    <div class="container mx-auto p-6 bg-white mb-4">
+        <h1 class="border-b border-dashed text-3xl">What is event delegation in the DOM?        </h1>
+        <p>
+            ভেন্ট ডেলিগেশন হলো জাভাস্ক্রিপ্টের একটি কৌশল যেখানে একটি ইভেন্ট লিসেনারকে চাইল্ড এলিমেন্টে একাধিক লিসেনার যোগ করার পরিবর্তে একটি প্যারেন্ট এলিমেন্টের সাথে যুক্ত করা হয়। যেখানে ইভেন্টগুলি চাইল্ড থেকে প্যারেন্ট এলিমেন্ট হয়।
+        </p>
+
+    </div>
+    <div class="container mx-auto p-6 bg-white mb-4">
+        <h1 class="border-b border-dashed text-3xl">What is event bubbling in the DOM?</h1>
+        <p>
+            ইভেন্ট বাবলিং হল ইভেন্ট প্রচারের একটি পর্যায় যেখানে একটি ইভেন্ট টার্গেট এলিমেন্ট থেকে শুরু হয় এবং DOM এর মূল এলিমেন্টগুলির উপরে চলে যায়।
+        </p>
+
+    </div>
+    <div class="container mx-auto p-6 bg-white mb-4">
+        <h1 class="border-b border-dashed text-3xl"> How do you create, add, and remove elements using JavaScript?</h1>
+        <p>
+            জাভাস্ক্রিপ্টে DOM API ব্যবহার করে Element create , add এবং remove করা যায়।
+        </p>
+
+    </div>
+    
+    
+
+ </section>
+
+
+
+
+
+
+<!-- javascript linking -->
+<script src="script/click.js"></script>
+<script src="script/backBtn.js"></script>
+
+</body>
+</html>
